@@ -1,0 +1,93 @@
+html {
+  font-size: 62.5%;
+}
+body {
+  background: #8e0e00; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #1f1c18,
+    #8e0e00
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #1f1c18,
+    #8e0e00
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  color: white;
+}
+.container {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+h1 {
+  font-size: 8vw;
+  margin-top: 8rem;
+  background-image: linear-gradient( 135deg, #90F7EC 10%, #32CCBC 100%);
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+.inputs {
+  width: 100%;
+  margin: 2rem auto;
+}
+input {
+  width: 100%;
+  margin: auto;
+  background: transparent;
+  outline: none;
+  border: none;
+  border-bottom: 2px solid white;
+  caret-color: white;
+  padding: 1rem;
+  color: white;
+  font-weight: bold;
+  font-size: 2vw;
+}
+::placeholder {
+  font-weight: bold;
+  color: whitesmoke;
+  opacity: 0.6;
+  font-size: 2vw;
+}
+select {
+  padding: 0.3rem;
+  margin-top: 3rem;
+  background: transparent;
+  outline: none;
+  border: none;
+  background-color: tan;
+  color: indigo;
+  font-weight: bold;
+}
+option {
+  font-weight: bold;
+  color: indigo;
+}
+#text {
+  margin-right: 1rem;
+}
+.output {
+  text-align: left;
+  margin: 5%;
+}
+h2 {
+  font-size: 3vw;
+}
+h3 {
+  font-size: 2vw;
+}
+audio {
+  width: 100%;
+}
+.def {
+  width: 100%;
+}
+h4 {
+  font-size: 2vw;
+}
+span {
+  color:sandybrown;
+}
